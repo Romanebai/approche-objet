@@ -12,4 +12,9 @@ public class AdressePostale {
         this.codePostal = codePostal;
         this.ville = ville;
     }
+
+    //Méthode toString pour afficher
+    public String toString() {
+        return numeroDeRue+" "+libelleDeRue+" "+codePostal+" "+ville;
+    }
 }
