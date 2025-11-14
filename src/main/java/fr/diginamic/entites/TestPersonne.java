@@ -1,6 +1,6 @@
-package entites;
+package fr.diginamic.entites;
 
-import entites2.Personne;
+import fr.diginamic.entites2.Personne;
 
 public class TestPersonne {
     public static void main(String[] args) {

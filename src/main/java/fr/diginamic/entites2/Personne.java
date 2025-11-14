@@ -1,6 +1,6 @@
-package entites2;
+package fr.diginamic.entites2;
 
-import entites.AdressePostale;
+import fr.diginamic.entites.AdressePostale;
 
 public class Personne {
     public String nom;
