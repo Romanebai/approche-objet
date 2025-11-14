@@ -9,6 +9,19 @@ public class Compte {
         this.soldeCompte = soldeCompte;
     }
 
+    @Override
+    public String toString() {
+        return "Mon numéro de compte est le : " + numeroCompte + " et mon solde est de : " + soldeCompte + " euros ";
+    }
+
+    public int getNumeroCompte() {
+        return numeroCompte;
+    }
+
+    public double getSoldeCompte() {
+        return soldeCompte;
+    }
+
     public void setNumeroCompte(int numeroCompte) {
         this.numeroCompte = numeroCompte;
     }
@@ -17,10 +30,6 @@ public class Compte {
         this.soldeCompte = soldeCompte;
     }
 
-    @Override
-    public String toString() {
-        return "Mon numéro de compte est le : " + numeroCompte + " et mon solde est de : " + soldeCompte + " euros";
-    }
 }
 
 
