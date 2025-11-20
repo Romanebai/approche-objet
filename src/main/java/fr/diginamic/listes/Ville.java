@@ -18,7 +18,9 @@ public class Ville {
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof Ville ville)) return false;
+        if (!(o instanceof Ville ville)) {
+            return false;
+        }
         return nbrHabitant == ville.nbrHabitant && Objects.equals(nom, ville.nom);
     }
 
