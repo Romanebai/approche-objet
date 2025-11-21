@@ -30,6 +30,7 @@ public class ComptagePaysParContinent {
             comptagePays.put(continent, compteur);
         }
 
+
         Set<String> continents = comptagePays.keySet();
 
         Iterator<String> iterator = continents.iterator();
