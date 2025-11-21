@@ -24,7 +24,7 @@ public class RecherchePopulationVille {
         }
 
             if  (villeTrouve != null) {
-                System.out.println("La ville que vous avez choisit est : " + villeTrouve.getNomCommune() + " et sa population totale : " + villeTrouve.getPopTotale());
+                System.out.println("La ville que vous avez choisi est : " + villeTrouve.getNomCommune() + " et sa population totale : " + villeTrouve.getPopTotale());
             } else {
                 System.out.println("Cette ville est introuvable.");
             }
